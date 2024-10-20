@@ -299,3 +299,21 @@ if (digitalRead(butonStart) == LOW && !butonStartApasat && statieLibera) {
 ```!butonStartApasat ``` Asigură că butonul nu este deja considerat apăsat (pentru a preveni apăsări multiple).
 
 ```timpulCurent - lastButtonPress > debounceTime``` Compară timpul curent cu timpul ultimei apăsări (lastButtonPress). Dacă diferența este mai mare decât debounceTime (50 ms), înseamnă că este o apăsare validă.
+
+# Poze
+
+![Poza1](https://github.com/user-attachments/assets/3821be7d-e24f-4f65-a1fb-7be5211ac251)
+
+![Poza2](https://github.com/user-attachments/assets/7e552a61-00dd-48ae-9647-8dedaaa37cbf)
+
+![Circuit](https://github.com/user-attachments/assets/706cdaae-4a6c-4c89-9e3a-34acb4bfd66a)
+
+# Schema electrică Tinkercad
+![Poza 3](https://github.com/user-attachments/assets/5cfff703-d3d0-42f3-8778-189de7f71641)
+
+# Link video cu funcționalitatea montajului fizic
+
+[Link](https://youtube.com/shorts/ImRSBbbYiIc)
+
+
+
