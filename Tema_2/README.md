@@ -71,3 +71,19 @@ Funcția ```loop()``` este funcția principală care se repetă continuu, gestio
 
 Funcția ```numaratoareInversa()``` gestionează o numărătoare inversă pentru a indica utilizatorului începutul rundei prin clipirea LED-ului de culoare albă de 3 ori și aprinderea LED-ului de culoare verde la apăsarea butonului de start.
 
+# Poze
+
+![imagine-1](https://github.com/user-attachments/assets/88d1614d-817a-4262-95bd-9700c3a9e5f6)
+
+![imagine-2](https://github.com/user-attachments/assets/35fa6d58-39ec-41fc-9dcd-898ce91c6774)
+
+![Screenshot 2024-11-03 144505](https://github.com/user-attachments/assets/4978879f-21d9-455d-b199-b0d645c676bf)
+
+# Schema electrică Tinkercad
+
+![Screenshot 2024-11-03 164857](https://github.com/user-attachments/assets/04435fdd-0d4e-4ca3-933a-d71e263c7ff8)
+
+
+# Link video cu funcționalitatea montajului fizic
+
+[Link youtube](https://youtu.be/914KDH-114g)
