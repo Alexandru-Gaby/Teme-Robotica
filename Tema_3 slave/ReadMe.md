@@ -10,20 +10,20 @@
 
 # Flow
 
-    Jocul pornește cu afișarea unui mesaj de bun venit pe LCD. Apăsarea unui buton declanșează startul jocului.
+Jocul pornește cu afișarea unui mesaj de bun venit pe LCD. Apăsarea unui buton declanșează startul jocului.
 
-    Pentru începerea jocului, butonul de start poate fi implementat într-un mod flexibil,
-    un al 7-lea buton dedicat* – se poate adăuga un buton suplimentar destinat exclusiv pornirii jocului.
+Pentru începerea jocului, butonul de start poate fi implementat într-un mod flexibil,
+un al 7-lea buton dedicat* – se poate adăuga un buton suplimentar destinat exclusiv pornirii jocului.
 ## Desfășurarea Rundelor
-    Fiecare jucător are trei butoane, fiecare asociat unui LED de o culoare diferită și un al 4-lea LED RGB.
+Fiecare jucător are trei butoane, fiecare asociat unui LED de o culoare diferită și un al 4-lea LED RGB.
 
-    La fiecare rundă, fiecare jucător este cel activ.
-    LED-ul RGB al jucătorului activ se aprinde într-o culoare corespunzătoare unuia dintre butoanele sale. Jucătorul trebuie să apese cât mai rapid butonul care corespunde culorii LED-ului RGB, pentru a obține puncte. Cu cât reacționează mai repede, cu atât primește mai multe puncte.
-    La finalul unei runde LCD-ul afișează punctajul actualizat al ambilor jucători.
-    Pe tot parcursul jocului display-ul LCD va arata punctajul fiecarui jucator
+La fiecare rundă, fiecare jucător este cel activ.
+LED-ul RGB al jucătorului activ se aprinde într-o culoare corespunzătoare unuia dintre butoanele sale. Jucătorul trebuie să apese cât mai rapid butonul care corespunde culorii LED-ului RGB, pentru a obține puncte. Cu cât reacționează mai repede, cu atât primește mai multe puncte.
+La finalul unei runde LCD-ul afișează punctajul actualizat al ambilor jucători.
+Pe tot parcursul jocului display-ul LCD va arata punctajul fiecarui jucator
 ## Timpul și Finalizarea Jocului
-    Servomotorul se rotește pe parcursul jocului, indicând progresul. O rotație completă a servomotorului marchează sfârșitul jocului (voi decideti cat de repede se misca).
-    La final, LCD-ul afișează numele câștigătorului și scorul final pentru câteva secunde, apoi revine la ecranul de start cu mesajul de bun venit.
+Servomotorul se rotește pe parcursul jocului, indicând progresul. O rotație completă a servomotorului marchează sfârșitul jocului (voi decideti cat de repede se misca).
+La final, LCD-ul afișează numele câștigătorului și scorul final pentru câteva secunde, apoi revine la ecranul de start cu mesajul de bun venit.
 
 # Codul este organizat astfel:
 Funcția ```setup()``` se execută o singură dată atunci când programul pornește, pentru a configura pinii și setările inițiale ale hardware-ului:
@@ -43,3 +43,19 @@ Activează culoarea aleasă pentru RGB-ul jucătorului activ. Dacă currentColor
 Funcția ```turnOffRgb(int player)``` dezactivează toate LED-urile RGB pentru un anumit jucător, setându-le pe toate la LOW (starea de oprire).
 
 Funcția ```ISR(SPI_STC_vect)``` este un ISR (Interrupt Service Routine) gestionează o întrerupere generată de comunicarea SPI.
+
+# Poze
+
+![imagine1](https://github.com/user-attachments/assets/cc29e33f-149a-4241-aadc-4833577b5673)
+
+![imagine2](https://github.com/user-attachments/assets/9e7f0bba-bd95-4fe2-9fe0-b7262ef4c8b0)
+
+![poza1](https://github.com/user-attachments/assets/f187999a-ae25-447f-b488-b7eed443f9b4)
+
+# Schema electrică Tinkercad
+
+![poza2](https://github.com/user-attachments/assets/9acddaef-1c2a-4965-b306-1dd8e62d871a)
+
+# Link video cu funcționalitatea montajului fizic
+
+[Link youtube](https://www.youtube.com/shorts/1wlZ9vS242c)
